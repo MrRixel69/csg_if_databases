@@ -12,7 +12,10 @@ echo '<h4>'.$tekst.'</h4>';
 $tekst=strstr($tekst, "De");
 
 $lengte=strlen($tekst);
-echo '<i>De string $tekst bestaat uit <b>' .$lengte. '</b> karakters.<b>';
+echo '<i>De string $tekst bestaat uit <b>' .$lengte. '</b> karakters.</i>';
+$tekst=substr($tekst,10,5);
+//echo "$tekst<br>";
+echo strrev($tekst).'<br>';
 
 /****************************
 EINDE VAN JOUW PHPCODE
