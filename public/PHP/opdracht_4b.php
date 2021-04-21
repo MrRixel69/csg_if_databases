@@ -6,6 +6,8 @@ TYP HIERONDER JOUW PHPCODE
 ****************************/
 
 $leerling=array('nr' => 123456, 'voornaam' => 'Alan', 'achternaam' => 'Turing');
+$leerling['geboortejaar'] = 1912;
+echo $leerling['voornaam']." ".$leerling['achternaam']. "werd geboren op".$leerling['geboortejaar']. ".<br>";
 
 echo "<pre>Leerling:";
 print_r($leerling);
